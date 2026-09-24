@@ -1,0 +1,54 @@
+/* Font override — Inter primary, Helvetica Neue fallback */
+* {
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+}
+
+/* Vuetify overrides */
+.v-application {
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.v-card--border {
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.v-navigation-drawer {
+  border-right: none !important;
+}
+
+/* Subtle card border for bento cells */
+.bento-card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Label utility */
+.label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+/* Mono value */
+.value-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+}
+
+/* Table row hover */
+.ss-table-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.ss-table-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.ss-table-row:last-child {
+  border-bottom: none;
+}
