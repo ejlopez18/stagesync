@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import StatCard from '@/components/common/StatCard.vue'
-import AppBadge from '@/components/common/AppBadge.vue'
 import AppButton from '@/components/common/AppButton.vue'
 import RiderSummaryCard from '@/components/dashboard/RiderSummaryCard.vue'
-import type { BadgeStatus } from '@/types'
 
 const itinerary = [
   { day: 'Oct 04', city: 'Los Angeles, CA', venue: 'Palladium', load: '2:00 PM', show: '9:00 PM', travel: 'Bus overnight → SF' },
